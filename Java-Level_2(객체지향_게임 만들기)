@@ -4,8 +4,8 @@ public class MonsterMain {
 
 	public static void main(String[] args) {
 		Monster m1 = new Monster();
-		Monster m2 = new Monster(50, 30, "mOSTER");
-		Monster m3 = new Monster("Moster");
+		Monster m2 = new Monster(50, 30, "man");
+		Monster m3 = new Monster("Object");
 		int num = 18;
 		
 		System.out.println(m1.체력);
@@ -64,10 +64,10 @@ public class Monster {
 	
 //		체력 = 100;
 //		공격력 = 15.1f;
-//		이름 = "권세준";
+//		이름 = "###";
 	// 생성자 오버 로딩
 	Monster(){
-		this(100, 15.1f, "권세준");
+		this(100, 15.1f, "###");
 	}
 
 	Monster(String 이름){
